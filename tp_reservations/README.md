@@ -19,8 +19,8 @@ python manage.py seed
 python manage.py runserver
 ```
 
-Comptes de test (mot de passe : `motdepasse123`) : `alice`, `bob`, `charlie`.
-Super-utilisateur : `admin` / `admin123`.
+Comptes de test (mot de passe : `admin@237`) : `alice`, `bob`, `charlie`.
+Super-utilisateur : "donald"
 
 ## Endpoints
 

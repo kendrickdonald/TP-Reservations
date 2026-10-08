@@ -11,7 +11,7 @@ class SalleSerializer(serializers.ModelSerializer):
             "batiment",
         ]
 class ReservationSerializer(serializers.ModelSerializer):
-    utilisateur= serializers.PrimarykeyRelatedField(read_only=True)
+    utilisateur= serializers.PrimaryKeyRelatedField(read_only=True)
     class Meta:
         model = Reservation
         fields = [
